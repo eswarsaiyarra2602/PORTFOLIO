@@ -7,7 +7,7 @@
 }
 .navigation {
   background-color:#EEEEEE; 
-}
+} 
 
 .navbar {
     top: 0;
@@ -29,10 +29,10 @@
 }
 .nav-link:hover{
   font-size:19px;
-  color : #007bff !important;
+  color : #0802A3 !important;
 }
 .navbar-nav .nav-item.active .nav-link {
-  color: #007bff; /* Blue color for active link */
+  color: #0802A3; /* Blue color for active link */
 }
 #about{
   margin-top: 100px;
@@ -41,10 +41,33 @@
   color: #5b5b5b;
   font-size: 25px;
   font-weight: bold;
-  padding: 8px 5px;
+  padding: 0px 5px;
+  margin-bottom: 5px;
+}
+.static-text{
+  font-size: 30px;
+  font-weight: 500;
 }
 
+.wrapper {
+  display: flex;
+  align-items: center;
+}
 
+.dynamic-text {
+  margin-left: 10px;
+  border-right: 5px solid transparent;
+  letter-spacing: 1.5px;
+  color: #ff6600;
+  font-weight: bold;
+  font-size: 30px; 
+  font-weight: 700;
+  transition: color 0.3s ease; 
+}
+
+.dynamic-text:hover {
+  color:#0802A3 ; /* Change text color on hover */
+}
 
 
 .custom-btn-group .btn{
@@ -83,6 +106,8 @@
   font-size: 25px;
   padding: 0px 10px;
 }
-
+.list-inline-item i:hover{
+  font-size : 30px;
+}
 
  
