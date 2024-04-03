@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en"> 
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -7,11 +7,11 @@
     <meta name="author" content="">
 
     <title>Eshwar Sai Yarra | Portfolio</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" >
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <!-- MAIN STYLE -->
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body> 
     <!--NAVIGATION-->
@@ -32,7 +32,7 @@
                 <a class="nav-link" href="#projects">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#resume">Resume</a>
+                <a class="nav-link" href="#skills">Skills</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#contact">Contact</a>
@@ -47,32 +47,31 @@
       <!-- ABOUT -->
       <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
         <div class="container">
-            <div class="row">
-                
-                <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
-                    <div class="about-text">
-                        <p class="small-text">Welcome to my portfolio website!</p>
-                        <div class="wrapper">
-                          <div class="static-text">Hey Folks, I'm </div>
-                          <div class="dynamic-text">Eshwar Sai</div>
-                        </div>
-                        <p>An aspiring Fullstack Web Developer with a keen interest in Machine Learning, eager to blend expertise in frontend and backend development with emerging AI technologies. </p>
-                        
-                        <div class="custom-btn-group mt-4">
-                          <a href="#" class="btn mr-lg-2 btn-primary"><i class='uil uil-file-alt'></i> Download Resume</a>
-                        </div>
-                    </div>
+          <div class="row">
+            <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+              <div class="about-text">
+                <p class="small-text">Welcome to my portfolio website !</p>
+                <div class="wrapper">
+                  <div class="static-text">Hey Folks, I'm </div>
+                  <!-- Add an empty div for the dynamic text -->
+                  <div class="dynamic-text"></div>
                 </div>
-  
-                <div class="col-lg-5 col-md-12 col-12">
-                    <div class="about-image svg">
-                        <img src="images/malesoftwareengineer.jpg" class="img-fluid" alt="svg image">
-                    </div>
+                <p>An aspiring Fullstack Web Developer with a keen interest in Machine Learning, eager to blend expertise in frontend and backend development with emerging AI technologies. </p>
+                <div class="custom-btn-group mt-4">
+                  <section id="resume">
+                    <a href="#" class="btn mr-lg-2 btn-primary"><i class='uil uil-file-alt'></i> Download Resume</a>
+                  </section>
                 </div>
-  
+              </div>
             </div>
+            <div class="col-lg-5 col-md-12 col-12">
+              <div class="about-image svg">
+                <img src="images/malesoftwareengineer.jpg" class="img-fluid" alt="svg image">
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
+      </section>
 
 
     <!--PROJECTS-->
@@ -82,7 +81,7 @@
           <div class="row">
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card">
-                <img src="images/project/project-image01.png" class="card-img-top" alt="Project 1">
+                <img src="images/PROJECTS/project-image01.png" class="card-img-top" alt="Project 1">
                 <div class="card-body">
                   <h5 class="card-title">Project 1</h5>
                   <p class="card-text">Description of Project 1</p>
@@ -92,7 +91,7 @@
             </div>
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card">
-                <img src="images/project/project-image02.png" class="card-img-top" alt="Project 2">
+                <img src="images/PROJECTS/project-image02.png" class="card-img-top" alt="Project 2">
                 <div class="card-body">
                   <h5 class="card-title">Project 2</h5>
                   <p class="card-text">Description of Project 2</p>
@@ -102,7 +101,7 @@
             </div>
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card">
-                <img src="images/project/project-image03.png" class="card-img-top" alt="Project 3">
+                <img src="images/PROJECTS/project-image03.png" class="card-img-top" alt="Project 3">
                 <div class="card-body">
                   <h5 class="card-title">Project 3</h5>
                   <p class="card-text">Description of Project 3</p>
@@ -156,7 +155,53 @@
           </div>
         </div>
       </section>
-    
+      <!--SKILLS-->
+      
+      <section class="skills" id="skills">
+        <div class="container">
+          <h2 class="text-center mb-3">Skills</h2>
+          <div class="row">
+            <div class="col-md-4">
+              <h3>Technical</h3>
+              <div>
+                <span class="badge text-bg-primary mr-2">C++</span>
+                <span class="badge text-bg-primary mr-2">Data Structures</span>
+                <span class="badge text-bg-primary mr-2">Algorithms</span>
+                <span class="badge text-bg-primary mr-2">OOPS</span>
+                <span class="badge text-bg-primary mr-2">Problem Solving</span>
+                <span class="badge text-bg-primary mr-2">HTML</span>
+                <span class="badge text-bg-primary mr-2">CSS</span>
+                <span class="badge text-bg-primary mr-2">JavaScript</span>
+                <span class="badge text-bg-primary mr-2">MERN Stack</span>
+                <span class="badge text-bg-primary mr-2">Python</span>
+                <span class="badge text-bg-primary mr-2">Java</span>
+                <span class="badge text-bg-primary mr-2">C</span>
+                <span class="badge text-bg-primary mr-2">Operating Systems</span>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <h3>Non-Technical</h3>
+              <div>
+                <span class="badge text-bg-primary mr-2">Communication</span>
+                <span class="badge text-bg-primary mr-2">Problem Solving</span>
+                <span class="badge text-bg-primary mr-2">Time Management</span>
+                <span class="badge text-bg-primary mr-2">Public Speaking</span>
+                <span class="badge text-bg-primary mr-2">Teamwork</span>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <h3>Languages Known</h3>
+              <div>
+                <span class="badge text-bg-primary mr-2">English</span>
+                <span class="badge text-bg-primary mr-2">Hindi</span>
+                <span class="badge text-bg-primary mr-2">Telugu</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!--CONTACT-->
       <section id="contact" class="py-5">
         <div class="container">
           <h2 class="text-center mb-4">Contact Me</h2>
@@ -182,10 +227,10 @@
           <div class="row mt-4">
             <div class="col-md-8 offset-md-2 text-center">
               <ul class="list-inline">
-                <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
-                <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                <li class="list-inline-item"><a href="#"><i class="fab fa-github"></i></a></li>
-                <li class="list-inline-item"><a href="mailto:youremail@example.com"><i class="far fa-envelope"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.instagram.com/eshwar.irl/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.linkedin.com/in/eswarsaiyarra/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li class="list-inline-item"><a href="https://github.com/eswarsaiyarra2602" target="_blank"><i class="fab fa-github"></i></a></li>
+                <li class="list-inline-item"><a href="https://mail.google.com/mail/?view=cm&fs=1&to=yarraeswarsai@gmail.com" target="_blank"><i class="far fa-envelope"></i></a></li>
               </ul>
             </div>
           </div>
@@ -197,6 +242,8 @@
           <p>Developed with <i class="fas fa-heart text-danger"></i> by Eshwar Sai Yarra</p>
         </div>
       </footer>
+      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+      <script src="script.js"></script>
+    </body>
 </html>
