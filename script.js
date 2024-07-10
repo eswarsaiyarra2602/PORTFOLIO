@@ -5,4 +5,4 @@ var typed = new Typed('.dynamic-text', {
     backSpeed: 50, 
     loop: true,
   });
-  
+AOS.init();
