@@ -6,9 +6,11 @@
   font-family: 'Poppins',sans-serif;
 }
 .navigation {
-  background-color:#EEEEEE; 
+  background-color : #FFF0F5; 
 } 
-
+body{
+  background-color: #fff ;
+}
 .navbar {
     top: 0;
     right: 0;
@@ -109,6 +111,7 @@
 .list-inline-item i:hover{
   font-size : 30px;
 }
+
 @media (max-width: 767px) {
   .about-text {
     text-align: center;
