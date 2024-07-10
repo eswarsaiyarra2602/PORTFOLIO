@@ -10,6 +10,7 @@
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <!-- MAIN STYLE -->
     <link rel="stylesheet" href="style.css">
   </head>
@@ -45,7 +46,7 @@
    
    
       <!-- ABOUT -->
-      <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
+      <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about" data-aos="zoom-in">
         <div class="container">
           <div class="row">
             <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
@@ -75,11 +76,11 @@
 
 
     <!--PROJECTS-->
-    <section id="projects" class="py-5">
+    <section id="projects" class="py-5" data-aos="fade-up">
         <div class="container">
-          <h2 class="text-center mb-5">Projects</h2>
+          <h1 class="text-center mb-5" data-aos="zoom-in">Projects</h1>
           <div class="row">
-            <div class="col-lg-4 col-md-6 mb-4">
+            <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-right">
               <div class="card">
                 <img src="images/PROJECTS/project-image01.png" class="card-img-top" alt="Project 1">
                 <div class="card-body">
@@ -89,7 +90,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6 mb-4">
+            <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
               <div class="card">
                 <img src="images/PROJECTS/project-image02.png" class="card-img-top" alt="Project 2">
                 <div class="card-body">
@@ -99,7 +100,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6 mb-4">
+            <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-left">
               <div class="card">
                 <img src="images/PROJECTS/project-image03.png" class="card-img-top" alt="Project 3">
                 <div class="card-body">
@@ -114,11 +115,11 @@
         </div>
       </section>
       
-      <section id="education-experience" class="py-5">
+      <section id="education-experience" class="py-5" >
         <div class="container">
           <div class="row">
             <!-- Education Section -->
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-right">
               <div class="card mb-4">
                 <div class="card-body">
                   <h2 class="card-title text-primary mb-4">Education</h2>
@@ -141,7 +142,7 @@
               </div>
             </div>
             <!-- Experience Section -->
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-left">
               <div class="card mb-4">
                 <div class="card-body">
                   <h2 class="card-title text-primary mb-4">Experience</h2>
@@ -159,9 +160,9 @@
       
       <section class="skills" id="skills">
         <div class="container">
-          <h2 class="text-center mb-3">Skills</h2>
+          <h2 class="text-center mb-3" data-aos="zoom-in">Skills</h2>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos="fade-up">
               <h3>Technical</h3>
               <div>
                 <span class="badge text-bg-primary mr-2">C++</span>
@@ -179,7 +180,7 @@
                 <span class="badge text-bg-primary mr-2">Operating Systems</span>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos="fade-up">
               <h3>Non-Technical</h3>
               <div>
                 <span class="badge text-bg-primary mr-2">Communication</span>
@@ -189,7 +190,7 @@
                 <span class="badge text-bg-primary mr-2">Teamwork</span>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos="fade-up">
               <h3>Languages Known</h3>
               <div>
                 <span class="badge text-bg-primary mr-2">English</span>
@@ -204,10 +205,10 @@
       <!--CONTACT-->
       <section id="contact" class="py-5">
         <div class="container">
-          <h2 class="text-center mb-4">Contact Me</h2>
+          <h2 class="text-center mb-4" data-aos="zoom-in">Contact Me</h2>
           <div class="row">
             <div class="col-md-8 offset-md-2">
-              <form>
+              <form data-aos="zoom-in">
                 <div class="form-group">
                   <label for="name">Your Name</label>
                   <input type="text" class="form-control" id="name" placeholder="Enter your name">
@@ -236,7 +237,7 @@
           </div>
         </div>
       </section>
-      <footer class="py-4 bg-light text-center">
+      <footer class="py-4 bg-light text-center" data-aos="zoom-in">
         <div class="container">
           <p>&copy; 2024 Eshwar Sai | Portfolio. All Rights Reserved.</p>
           <p>Developed with <i class="fas fa-heart text-danger"></i> by Eshwar Sai Yarra</p>
@@ -244,7 +245,7 @@
       </footer>
       <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
       <script src="script.js"></script>
     </body>
 </html>
-
