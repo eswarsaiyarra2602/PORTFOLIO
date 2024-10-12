@@ -166,7 +166,7 @@
       
       <section class="skills" id="skills">
         <div class="container">
-          <h2 class="text-center mb-3" data-aos="zoom-in">Skills</h2>
+          <h1 class="text-center mb-5" data-aos="zoom-in">Skills</h1>
           <div class="row">
             <div class="col-md-4" data-aos="fade-up">
               <h3>Technical</h3>
@@ -176,14 +176,12 @@
                 <span class="badge text-bg-primary mr-2">Algorithms</span>
                 <span class="badge text-bg-primary mr-2">OOPS</span>
                 <span class="badge text-bg-primary mr-2">Problem Solving</span>
-                <span class="badge text-bg-primary mr-2">HTML</span>
-                <span class="badge text-bg-primary mr-2">CSS</span>
                 <span class="badge text-bg-primary mr-2">JavaScript</span>
-                <span class="badge text-bg-primary mr-2">MERN Stack</span>
-                <span class="badge text-bg-primary mr-2">Python</span>
-                <span class="badge text-bg-primary mr-2">Java</span>
-                <span class="badge text-bg-primary mr-2">C</span>
-                <span class="badge text-bg-primary mr-2">Operating Systems</span>
+                <span class="badge text-bg-primary mr-2">MERNStack</span>
+                <span class="badge text-bg-primary mr-2">AWS</span>
+                <span class="badge text-bg-primary mr-2">Git</span>
+                <span class="badge text-bg-primary mr-2">Cloud Computing</span>
+                <span class="badge text-bg-primary mr-2">DevOps</span>
               </div>
             </div>
             <div class="col-md-4" data-aos="fade-up">
@@ -208,24 +206,59 @@
         </div>
       </section>
       
+      <!-- CERTIFICATIONS -->
+    <section id="certificates" class="py-5" data-aos="fade-up">
+      <div class="container">
+        <h1 class="text-center mb-5" data-aos="zoom-in">Certifications</h1>
+          <div class="row" data-aos="zoom-in">
+              <div class="col-lg-10 offset-md-1">
+                <div id="certificationCarousel" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#certificationCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#certificationCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  </div>
+                  <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="d-flex justify-content-center">
+                            <img src="FILES/certifications/Programming In Modern C++.jpg" class="d-block w-75" alt="Certificate 1">
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <img src="FILES/certifications/Programming In Modern C++.jpg" class="d-block w-75" alt="Certificate 1">
+                        </div>
+                      </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#certificationCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#certificationCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  </button>
+                </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
+
       <!--CONTACT-->
-      <section id="contact" class="py-5">
+      <section id="contact" class="py-3">
         <div class="container">
-          <h2 class="text-center mb-4" data-aos="zoom-in">Contact Me</h2>
+          <h1 class="text-center mb-5" data-aos="zoom-in">Contact</h1>
           <div class="row">
             <div class="col-md-8 offset-md-2">
-              <form data-aos="zoom-in">
+              <form data-aos="zoom-in" id="contactForm">
                 <div class="form-group">
                   <label for="name">Your Name</label>
-                  <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                  <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
                 </div>
                 <div class="form-group">
                   <label for="email">Your Email</label>
-                  <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                  <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
                 </div>
                 <div class="form-group">
                   <label for="message">Message</label>
-                  <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+                  <textarea class="form-control" id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
               </form>
@@ -243,6 +276,16 @@
           </div>
         </div>
       </section>
+    </div>
+
+    <!-- Success Message Box -->
+      <div id="successMessage" class="success-alert hidden">
+        <strong>Email sent successfully!</strong>
+        <button type="button" class="button-close" aria-label="Close" onclick="closeSuccessMessage()">
+            <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      
       <footer class="py-4 bg-light text-center" data-aos="zoom-in">
         <div class="container">
           <p>&copy; 2024 Eshwar Sai | Portfolio. All Rights Reserved.</p>

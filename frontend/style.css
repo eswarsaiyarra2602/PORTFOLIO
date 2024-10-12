@@ -15,7 +15,7 @@ body{
     top: 0;
     right: 0;
     left: 0;
-    z-index: 999999;
+    z-index: 9999;
     border: 2px solid #ccc;
 }
 .navbar-brand{
@@ -26,11 +26,12 @@ body{
 .nav-link{
   font-size: 18px;
   font-weight: bold;
-  color:#BD5D38;
+  color: #0802A3;
   padding-left : 20px !important;
 }
 .nav-link:hover{
   font-size:19px;
+  color: #ff6600;
 }
 .navbar-nav .nav-item.active .nav-link {
   color: #0802A3; /* Blue color for active link */
@@ -111,6 +112,106 @@ body{
   font-size : 30px;
 }
 
+
+.success-alert {
+  position: fixed;
+  top: 3%;
+  right: 2%;
+  z-index: 99999; 
+  width: 300px;
+  padding: 15px;
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.button-close {
+  background: none;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+  color: #000;
+  outline: none;
+}
+.button-close:hover {
+  color: #ff0000;
+}
+.hidden{
+  display: none;
+}
+
+.carousel-inner {
+  margin-bottom: 20px ;
+  position: relative;
+  border-radius: 10px; /* Rounded corners */
+  overflow: hidden; /* Prevent overflow of images */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+}
+.carousel .carousel-indicators button{
+  background-color: rgba(0, 0, 0, 0.5); /* Change to a darker color for better visibility */
+}
+.carousel .carousel-indicators{
+  position : absolute;
+  bottom : 0px;
+}
+.carousel-indicators .active {
+  background-color: #007bff; /* Change active indicator color */
+}
+.carousel-item img { 
+  padding: 20px 0;
+  margin-bottom: 20px;
+  transition: transform 0.5s ease; /* Smooth zoom effect on hover */
+}
+
+.carousel-item img:hover {
+  transform: scale(1.025); /* Scale up the image slightly on hover */
+}
+/* Carousel Control Button Styles */
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 45%;
+    background-color: rgba(255, 255, 255, 0.8); /* Light background */
+    border-radius: 50%; /* Make buttons circular */
+    width: 50px; /* Set fixed width */
+    height: 50px; /* Set fixed height */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: rgba(255, 255, 255, 1); /* Solid white on hover */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: transparent; /* Remove default background */
+    border-radius: 50%; /* Round the icons */
+    width: 30px; /* Set width for icons */
+    height: 30px; /* Set height for icons */
+}
+
+/* Custom styling for icon shapes */
+.carousel-control-prev-icon::before,
+.carousel-control-next-icon::before {
+    font-size: 1.5rem; /* Increase icon size */
+    color: #000; /* Change icon color */
+}
+
+/* Additional styling for icon shapes */
+.carousel-control-prev-icon::before {
+    content: '❮'; /* Custom left arrow icon */
+    color: black; /* Icon color */
+}
+
+.carousel-control-next-icon::before {
+    content: '❯'; /* Custom right arrow icon */
+    color: black; /* Icon color */
+}
 @media (max-width: 767px) {
   .about-text {
     text-align: center;
