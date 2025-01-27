@@ -12,7 +12,6 @@ app.use(cors());
 app.use(express.json()); 
 
 
-
 app.post('/contact', async (req, res) => {
   const { name, email, message } = req.body;
   if(!name || !email || !message){
@@ -41,8 +40,6 @@ app.post('/contact', async (req, res) => {
     res.status(500).send({ message: 'Error sending email' });
   }
 });
-
-
 app.get('*',(req,res)=>{
     res.send("hello from server");
 })
